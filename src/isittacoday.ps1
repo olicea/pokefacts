@@ -1,4 +1,4 @@
-if ([DateTime]::Today.DayOfWeek -eq 'Wednesday')
+if ([DateTime]::Today.DayOfWeek -eq [System.DayOfWeek]::Wednesday)
 {
   Write-Host 'yes, cuatro de pollo por favor'
 }
